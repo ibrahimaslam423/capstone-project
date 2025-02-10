@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+//note add saved properties list later to call for what they saved for later 
 const userSchema = new mongoose.Schema({
     _id: { type: String, required: true }, // Google 'sub' ID
     email: { type: String, required: true, unique: true },
