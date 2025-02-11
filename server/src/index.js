@@ -16,7 +16,7 @@ app.use(passport.initialize());
 
 // Connect to MongoDB using the MONGO_URI from the .env file
 mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log("MongoDB connected")) // Logs success if connected
+  .then(() => console.log("MongoDB connected", mongoose.connection.name)) // Logs success if connected
   .catch(err => console.error("MongoDB Connection Error" , err)); // Logs error if something goes wrong
 
   // Register Routes
