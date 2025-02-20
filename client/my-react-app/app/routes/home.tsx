@@ -29,13 +29,13 @@ export default function Home() {
           Property Login
         </a>
 
-         {/* Bypass Student Landing Button */}
+         {/* bypass Student Landing Button just for now ideally after log in just change routes to take u there */}
          <a
           href="/student-landing"
           className="login-button bypass-login"
           aria-label="Bypass Login to Student Landing"
         >
-          Bypass Login
+          Bypass Student Login
         </a>
 
       </div>
