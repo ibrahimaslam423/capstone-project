@@ -28,6 +28,16 @@ export default function Home() {
         >
           Property Login
         </a>
+
+         {/* Bypass Student Landing Button */}
+         <a
+          href="/student-landing"
+          className="login-button bypass-login"
+          aria-label="Bypass Login to Student Landing"
+        >
+          Bypass Login
+        </a>
+
       </div>
     </div>
   );
